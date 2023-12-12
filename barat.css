@@ -1,0 +1,89 @@
+/* barat.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.grid-container {
+    
+    display: flex; /* Use flex container */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    justify-content: space-between; /* Adjust as needed */
+    gap: 20px;
+    padding: 20px;
+}
+
+.barat {
+    text-align:center;
+    padding: 20px;
+    background-color: #D4E6F1;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Make sure it takes the full width in flex container */
+}
+
+.B {
+    text-align: center;
+    color: peru;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#main {
+    color: peru;
+}
+
+h2{
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    text-align: center;
+    line-height: 1.5;
+    font-size:larger;
+}
+
+/* Style for the dinner pic box */
+.dinner-pic-box {
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid #333;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the marriage hall div */
+.marriage-hall {
+    display: flex; /* Use flex container for images */
+    gap: 20px;
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid #333;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styling for images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+.underlined-text {
+    text-decoration: underline;
+    text-decoration-color: #333;
+}
+
+h3 a {
+    color: #008080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h3 a:hover {
+    color: pink;
+    text-decoration: underline;
+}

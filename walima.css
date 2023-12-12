@@ -1,0 +1,51 @@
+/* walima.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.walima {
+    font-family: 'Times New Roman', Times, serif;
+    color: slateblue;
+    font-size: 28px;
+}
+
+.event {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.icon {
+    display: block;
+    margin: 20px auto;
+    font-size: 36px;
+    color: peru;
+}
+
+a {
+    color: #008080; /* Change anchor tag color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Add smooth transition for color change */
+}
+
+a:hover {
+    color: pink; /* Change anchor tag color on hover */
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+}

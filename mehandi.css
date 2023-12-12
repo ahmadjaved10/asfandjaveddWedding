@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: honeydew;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.rasm {
+    font-family:cursive;
+    color: slateblue;
+    font-size: 28px; /* Increase font size for emphasis */
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 35px; /* Increase font size for emphasis */
+}
+
+h2 {
+    line-height: 1cm;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    margin-top: 10px;
+    font-size: 20px; /* Increase font size for emphasis */
+}
+
+h3 a {
+    color: #008080;
+    text-decoration: none;
+    font-weight: bold; /* Add bold font weight */
+}
+
+h3 a:hover {
+    color: pink;
+    text-decoration: underline;
+}
+
+img {
+    display: inline-block;
+    margin: 20px auto; /* Add some margin for spacing */
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 200px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
